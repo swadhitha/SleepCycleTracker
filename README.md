@@ -58,9 +58,7 @@ The app will open in your browser (usually on `http://localhost:8501`).
 2. Ask: "How do I sleep better?" → receive actionable tips.
 3. Try invalid inputs (e.g., `days: 0`) to see helpful error messages from the backend.
 
-## Notes
-- Data is stored in-memory for simplicity; restarting the backend clears it.
-- The RAG index is built in-process on first use from `data/sleep_tips.json`.
-- All components run locally without external API keys.
+
+
 
 
