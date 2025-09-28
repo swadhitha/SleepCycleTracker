@@ -1,3 +1,8 @@
+DONE BY:
+NIRANJANA NAYAGI B - 23N233
+SHIRAYA CHANDRA - 23N250
+SWADHITHA SP - 23N258
+
 # Sleep Cycle Tracker (FastAPI + Streamlit + RAG)
 
 A complete, local, sensor-free sleep tracker simulation:
@@ -59,3 +64,4 @@ The app will open in your browser (usually on `http://localhost:8501`).
 - Data is stored in-memory for simplicity; restarting the backend clears it.
 - The RAG index is built in-process on first use from `data/sleep_tips.json`.
 - All components run locally without external API keys.
+
