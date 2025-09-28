@@ -7,7 +7,6 @@ A complete, local, sensor-free sleep tracker simulation:
 - Backend: FastAPI with endpoints to generate sleep data, compute summaries, and retrieve advice via RAG
 - Frontend: Streamlit UI for data input, charts, and advice
 - RAG: FAISS + sentence-transformers over a local `data/sleep_tips.json`
-- LangChain is used for prompt structuring (no external LLM/API required)
 
 ## Requirements
 - Python 3.10+
@@ -57,6 +56,7 @@ The app will open in your browser (usually on `http://localhost:8501`).
 1. Generate 7 days of data in Streamlit and view charts.
 2. Ask: "How do I sleep better?" → receive actionable tips.
 3. Try invalid inputs (e.g., `days: 0`) to see helpful error messages from the backend.
+
 
 
 
